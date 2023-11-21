@@ -19,7 +19,7 @@ const quizData = [
 let currentQuestion = 0;
 let score = 0;
 
-// console.log(score) 
+console.l
 
 const questionElement = document.getElementById('question');
 const optionsContainer = document.getElementById('options-container');
@@ -48,7 +48,7 @@ function nextQuestion() {
     if (selectedOption) {
         if (selectedOption.value === quizData[currentQuestion].correctAnswer) {
             score++;
-            // console.log(score)
+            console.log(score)
         }
 
         currentQuestion++;

@@ -48,7 +48,7 @@ function nextQuestion() {
     if (selectedOption) {
         if (selectedOption.value === quizData[currentQuestion].correctAnswer) {
             score++;
-            // console.log(score)
+            console.log(score)
         }
 
         currentQuestion++;
